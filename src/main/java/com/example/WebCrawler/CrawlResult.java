@@ -25,6 +25,10 @@ public class CrawlResult {
         urlsFound.add(url);
     }
 
+    public List<String> getUrlsFound() {
+        return urlsFound;
+    }
+
     public String getSeedUrl() {
         return seedUrl;
     }
