@@ -1,14 +1,19 @@
 package com.example.WebCrawler;
 
 public class CrawlStarterResponse {
-    private String processId;
+    private int processId;
     private CrawlProcessStatus status;
 
-    public String getProcessId() {
+    public CrawlStarterResponse(int processId, CrawlProcessStatus status) {
+        this.processId = processId;
+        this.status = status;
+    }
+
+    public int getProcessId() {
         return processId;
     }
 
-    public void setProcessId(String processId) {
+    public void setProcessId(int processId) {
         this.processId = processId;
     }
 

@@ -13,7 +13,7 @@ public class CrawlManager {
     private static final ExecutorService threadPool=
             Executors.newFixedThreadPool(5);
 
-    public CrawlResult start(String seedUrl){
+    public CrawlResult startCrawling(String seedUrl){
         int crawlProcessId=0;
         Random random=new Random();
         while(true){

@@ -37,4 +37,8 @@ public class CrawlResult {
         return crawlProcessId;
     }
 
+    public CrawlProcessStatus getCrawlProcessStatus() {
+        return crawlProcessStatus;
+    }
+
 }

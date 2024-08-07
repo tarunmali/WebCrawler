@@ -13,7 +13,6 @@ public class CrawlDB {
     }
 
     public static CrawlResult getResult(int crawlProcessId){
-        //TODO Invalid id handling
         return results.get(crawlProcessId);
     }
 
